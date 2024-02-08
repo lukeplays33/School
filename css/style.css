@@ -2,3 +2,7 @@ section {
     display:flex;
     flex-direction:column;
 }
+
+body, html {
+    background-color: red;
+}
