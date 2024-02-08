@@ -6,3 +6,7 @@ section {
 body, html {
     background-color: red;
 }
+
+body * {
+    color: black;
+}
