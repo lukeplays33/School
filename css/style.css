@@ -32,3 +32,18 @@ img {
     width:80px;
     height:80px;
 }
+
+menu {
+    border-width:2px;
+    border-color:black;
+    border-style: dotted;
+    border-radius:27px;
+}
+
+a {
+    color:black;
+}
+
+a::visited {
+    color:gray;
+}
