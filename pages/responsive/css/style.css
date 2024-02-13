@@ -68,6 +68,8 @@ header {
         flex-direction:column;
 
         width:100%;
+
+        padding:0px;
     }
 
     a {
@@ -76,6 +78,7 @@ header {
 
         text-align:center;
 
+        border-radius:0px;
         margin-bottom:8px;
     }
 
