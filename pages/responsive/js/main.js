@@ -1,4 +1,4 @@
-let nav = document.querySelector('nav')[0];
+let nav = document.getElementsByTagName('nav')[0];
 
 document.getElementById('cheeseBurger').onclick = function () {
     if(nav.style.dispaly == 'block') {
