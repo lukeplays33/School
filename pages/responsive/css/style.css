@@ -39,6 +39,10 @@ header {
         margin-right:8px;
         margin-left:auto;
     }
+
+    #cheeseBurger {
+        display:none;
+    }
 }
 
 @media screen and (max-width: 780px) {
