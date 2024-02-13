@@ -1,4 +1,4 @@
-let nav = document.getElementsByTagName('nav')[0];
+let nav = document.getElementsById('nav');
 
 document.getElementById('cheeseBurger').onclick = function () {
     alert(nav.style.display)
