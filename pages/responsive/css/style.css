@@ -78,4 +78,8 @@ header {
 
         margin-bottom:8px;
     }
+
+    #cheeseBurger {
+        border-radius:0px;
+    }
 }
