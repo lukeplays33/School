@@ -13,14 +13,20 @@ a {
 }
 
 header {
-    background-color:red;
+    background-color:#F7B8CB;
+    padding:8px;
 }
 
 @media screen and (min-width: 780px) {
-    body {
+    main {
         background-image:url('https://wallpapercave.com/wp/wp6590654.jpg');
         background-size:cover;
         background-position:center;
         background-repeat:no-repeat;
+    }
+
+    header {
+        display:flex;
+        flex-direction:row;
     }
 }
