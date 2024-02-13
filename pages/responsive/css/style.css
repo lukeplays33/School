@@ -71,9 +71,11 @@ header {
     }
 
     a {
-        width:100%;
+        width:calc(100% - 32px);
         background-color:#D07196 !important;
 
         text-align:center;
+
+        margin-bottom:8px;
     }
 }
