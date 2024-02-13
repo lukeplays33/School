@@ -17,6 +17,7 @@ a {
 header {
     background-color:#F7B8CB;
     padding:8px;
+    margin:0px;
 }
 
 @media screen and (min-width: 780px) {
@@ -30,5 +31,33 @@ header {
     header {
         display:flex;
         flex-direction:row;
+    }
+
+    nav {
+        margin-top:auto;
+        margin-bottom:auto;
+        margin-right:8px;
+        margin-left:auto;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    main {
+        background-image:url('https://wallpapercave.com/wp/wp6590654.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat:no-repeat;
+    }
+
+    header {
+        display:flex;
+        flex-direction:row;
+    }
+
+    nav {
+        margin-top:auto;
+        margin-bottom:auto;
+        margin-right:8px;
+        margin-left:auto;
     }
 }
