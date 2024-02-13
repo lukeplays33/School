@@ -64,14 +64,12 @@ header {
         margin-right:8px;
         margin-left:auto;
 
-        display:flex;
+        display:nonw;
         flex-direction:column;
 
         width:100%;
 
         padding:0px;
-
-        display:none;
     }
 
     a {
