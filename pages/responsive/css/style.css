@@ -8,6 +8,10 @@ body, html {
     border-radius:200px;
 }
 
+header {
+    background-color:red;
+}
+
 @media screen and (min-width: 780px) {
     body {
         background-image:url('https://wallpapercave.com/wp/wp6590654.jpg');
