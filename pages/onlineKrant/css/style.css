@@ -63,6 +63,8 @@ a::visited {
     .item img {
         width:100px;
         height:60px;
+
+        margin-right:8px;
     }
 
     h1 {
