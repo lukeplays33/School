@@ -63,7 +63,7 @@ a::visited {
     }
 
     h1 {
-        margin-top:0px;
+       margin:0px;
         width:max-content;
     }
   }
