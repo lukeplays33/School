@@ -38,6 +38,8 @@ menu {
     border-color:black;
     border-style: dotted;
     border-radius:27px;
+
+    margin-top:8px;
 }
 
 a {
@@ -52,6 +54,7 @@ a::visited {
     .item, header {
         display:flex;
         flex-direction:row;
+        justify-content:flex-start;
     }
 
     .item img {
@@ -61,6 +64,6 @@ a::visited {
 
     h1 {
         margin-top:0px;
-        width:min-content;
+        width:max-content;
     }
   }
