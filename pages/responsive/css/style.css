@@ -64,7 +64,7 @@ header {
         margin-right:8px;
         margin-left:auto;
 
-        display:none !important;
+        display:none;
         flex-direction:column;
 
         width:100%;
