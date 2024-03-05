@@ -30,6 +30,10 @@ img {
 }
 
 @media screen and (min-width: 780px) {
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
     main {
         background-image:url('https://wallpapercave.com/wp/wp6590654.jpg');
         background-size:cover;
@@ -54,7 +58,17 @@ img {
     }
 }
 
+@media screen and (max-width: 480px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 @media screen and (max-width: 780px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    
     main {
         background-image:url('https://wallpapercave.com/wp/wp6590654.jpg');
         background-size:cover;
