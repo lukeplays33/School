@@ -120,8 +120,8 @@ img {
     }
 
     .grid img:nth-child(3) {
-        grid-row-start:0;
         grid-row-start:1;
+        grid-row-start:2;
     }
 
     .grid img:nth-child(7), .grid img:nth-child(4), .grid img:nth-child(5), .grid img:nth-child(6) {
