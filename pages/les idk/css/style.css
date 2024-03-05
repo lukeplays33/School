@@ -115,15 +115,15 @@ img {
 
 @media screen and (max-width: 480px) {
     .grid {
-        grid-template-areas: "img1 img1";
+        grid-template-areas: "img1 img1"
+        "img2";
     }
     .grid img:nth-child(1) {
         grid-area:img1;
     }
 
     .grid img:nth-child(3) {
-        grid-row-start:1;
-        grid-row-start:2;
+        grid-area:img2
     }
 
     .grid img:nth-child(7), .grid img:nth-child(4), .grid img:nth-child(5), .grid img:nth-child(6) {
