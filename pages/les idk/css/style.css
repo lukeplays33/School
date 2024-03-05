@@ -114,12 +114,20 @@ img {
 }
 
 @media screen and (max-width: 480px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
     .grid img:nth-child(1) {
         grid-row-start:0;
         grid-row-start:1;
     }
 
-    .grid img:nth-child(3), .grid img:nth-child(4), .grid img:nth-child(5), .grid img:nth-child(6) {
+    .grid img:nth-child(3) {
+        grid-row-start:0;
+        grid-row-start:1;
+    }
+
+    .grid img:nth-child(7), .grid img:nth-child(4), .grid img:nth-child(5), .grid img:nth-child(6) {
         grid-row-start:03;
         grid-row-start:4;
     }
