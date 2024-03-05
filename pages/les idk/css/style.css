@@ -114,9 +114,11 @@ img {
 }
 
 @media screen and (max-width: 480px) {
+    .grid {
+        grid-area: "img1 img1";
+    }
     .grid img:nth-child(1) {
-        grid-row-start:0;
-        grid-row-start:1;
+        grid-area:"img1"
     }
 
     .grid img:nth-child(3) {
