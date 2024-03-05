@@ -116,18 +116,18 @@ img {
 @media screen and (max-width: 480px) {
     .grid {
         grid-template-areas: "img1 img1"
-        "img2";
+        "img2"
+        "img3 img3 img3 img3";
     }
     .grid img:nth-child(1) {
         grid-area:img1;
     }
 
     .grid img:nth-child(3) {
-        grid-area:img2
+        grid-area:img2;
     }
 
     .grid img:nth-child(7), .grid img:nth-child(4), .grid img:nth-child(5), .grid img:nth-child(6) {
-        grid-row-start:03;
-        grid-row-start:4;
+        grid-area:img3;
     }
 }
