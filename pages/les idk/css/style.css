@@ -118,7 +118,7 @@ img {
         grid-template-areas: "img1 img1";
     }
     .grid img:nth-child(1) {
-        grid-areas:"img1"
+        grid-area:"img1"
     }
 
     .grid img:nth-child(3) {
