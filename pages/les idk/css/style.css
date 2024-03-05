@@ -115,8 +115,8 @@ img {
 
 @media screen and (max-width: 480px) {
     .grid {
-        grid-template-areas: "img1 img1"
-        "img2 img2"
+        grid-template-areas: "img1 img1 . ."
+        "img2 . . . ."
         "img3 img3 img3 img3";
     }
     .grid img:nth-child(1) {
