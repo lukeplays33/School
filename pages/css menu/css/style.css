@@ -9,3 +9,7 @@ header {
     padding:8px;
     margin:0px !important;
 }
+
+#menu {
+    display:none;
+}
