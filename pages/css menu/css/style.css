@@ -28,5 +28,5 @@ header {
 }
 
 #menu:checked ~ nav {
-    display:bloflexck;
+    display:flex;
 }
