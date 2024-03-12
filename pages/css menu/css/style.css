@@ -19,4 +19,10 @@ header {
     background-size:cover;
     background-position:center;
     background-repeat: no-repeat;
+
+    color:TRANSPARENT;
+}
+
+#menu:checked ~ #nav {
+    display:block;
 }
