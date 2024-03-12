@@ -23,6 +23,10 @@ header {
     color:TRANSPARENT;
 }
 
-#menu:checked ~ #nav {
-    display:block;
+#nav {
+    display:none;
+}
+
+#menu:checked ~ nav {
+    display:bloflexck;
 }
