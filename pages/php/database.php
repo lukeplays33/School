@@ -14,6 +14,8 @@ $dbname = "phples"; // Change this to your MySQL database name
 $username = "root"; // Change this to your MySQL username 
 $password = ""; // Change this to your MySQL password 
 // Connect to MySQL database using PDO 
+
+try {
 $pdo = new PDO("mysql:host=$host; dbname=$dbname", $username, $password);
 
 // Prepare SQL query to fetch all data from the "users" table 
@@ -27,6 +29,9 @@ if (count($users) > 0) { // Output the data
     } else { // Add other fields as needed 
         echo "No users found in the database.";
     }
+} catch (Exception $e) {
+    echo $e->getMessage();
+}
 ?>
 </body>
 </html>
